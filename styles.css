@@ -1,0 +1,66 @@
+.header {
+    height: 6%; /* Высота слоя */
+    width: 100%;
+    background: #222; 
+    font-size: 30px;
+    align-self: center;
+    padding: 3px;
+    position: fixed;
+    color: white;
+    z-index: 100;
+}
+.page {
+    top: 50px;
+    position: absolute;
+    overflow: hidden;
+    height: 500%;
+    width: 100%;
+}
+.sidebar { 
+    padding: 10px;
+    position: fixed;
+    width: 10%; 
+    transition: 0.3s;
+    background: #333; 
+    top: 6%; /* Расстояние от верхнего края */ 
+    bottom: 0; /* Расстояние снизу  */
+    z-index: 100;
+    padding: 0px;
+    overflow: hidden;
+}
+.sidebar:hover{
+    width: 15%;
+    transition: 0.3s all;
+}
+.option{
+    display:block;
+    margin: 0;
+    position: relative;
+    font-size: large;
+    color: white;
+    border: none;
+    height: 80px;
+    width: 100%;
+    transition: 0.2s;
+    background-color: #333;
+    padding-left: 0%;
+    padding-top: 0%;
+}
+.option:hover {
+    font-size: x-large;
+    background-color: #666;
+    height: 120px;
+    transition: 0.2s;
+    text-size-adjust: 50px;
+}
+.content {
+    padding: 50px;
+    width: 90%;
+    font-size: large;
+    position: relative;
+    top: 20px; /* Расстояние от верхнего края */
+    left: 170px; /* Расстояние от левого края */ 
+    bottom: 0; right: 0;
+    overflow: auto;
+    z-index: 50;
+}
