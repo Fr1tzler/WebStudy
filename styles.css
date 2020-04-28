@@ -1,3 +1,6 @@
+body {
+    margin: 0%;
+}
 .header {
     height: 6%; /* Высота слоя */
     width: 100%;
@@ -7,10 +10,10 @@
     padding: 3px;
     position: fixed;
     color: white;
-    z-index: 100;
+    z-index: 200;
 }
 .page {
-    top: 50px;
+    margin-top: 6%;
     position: absolute;
     overflow: hidden;
     height: 500%;
@@ -55,6 +58,7 @@
 }
 .content {
     padding: 50px;
+    padding-top: 0px;
     width: 90%;
     font-size: large;
     position: relative;
@@ -63,4 +67,10 @@
     bottom: 0; right: 0;
     overflow: auto;
     z-index: 50;
+}
+.leftImage{
+    float:left; /* Выравнивание по левому краю */
+    margin: 10px; /* Отступы вокруг картинки */
+    padding: 10px;
+    border: 1px solid black;
 }
