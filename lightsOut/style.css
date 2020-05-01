@@ -1,0 +1,28 @@
+.block{
+    display: inline-block;
+    background-color: white;
+    height: 10vh;
+    width: 10vh;
+    margin: 1vh;
+    border: 1px solid black;
+    user-select: none;
+}
+
+.blockLine{
+    background-color: #666666;
+    height: 77/6vh;
+    width: 77vh;
+    margin: 0px;
+    padding: 5px;
+    user-select: none;
+}
+
+.blockArray{
+    background-color: grey;
+    height: 81vh;
+    width: 77vh;
+    margin: 0px;
+    margin-left: 30vw;
+    margin-top: 9.5vh;
+    padding: 5px;
+}
