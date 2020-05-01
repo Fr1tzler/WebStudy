@@ -1,18 +1,28 @@
 .block{
-    position: relative;
     display: inline-block;
     background-color: white;
     height: 100px;
-    width: 13.79%;
-    margin: 1%;
+    width: 100px;
+    margin: 5px;
     border: 1px solid black;
     user-select: none;
 }
+
 .blockLine{
-    position: relative;
-    background-color: grey;
-    height: 10%;
-    width: 37%;
+    background-color: #666666;
+    height: inherit / 6;
+    width: inherit;
     margin: 0px;
-    margin-left: 31.5%;
+    padding: 5px;
+    user-select: none;
+}
+
+.blockArray{
+    background-color: grey;
+    height: 700px;
+    width: 700px;
+    margin: 0px;
+    margin-left: 30%;
+    margin-top: 4%;
+    padding: 5px;
 }
