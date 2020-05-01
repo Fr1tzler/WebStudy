@@ -1,0 +1,18 @@
+.block{
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    height: 100px;
+    width: 13.79%;
+    margin: 1%;
+    border: 1px solid black;
+    user-select: none;
+}
+.blockLine{
+    position: relative;
+    background-color: grey;
+    height: 10%;
+    width: 37%;
+    margin: 0px;
+    margin-left: 31.5%;
+}
