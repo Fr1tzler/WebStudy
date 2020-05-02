@@ -3,7 +3,7 @@ let maxY = window.innerHeight;
 let canvas = document.getElementById('c1');
 let screen = canvas.getContext('2d');
 let timer;
-let points = getPoints(50);
+let points = getPoints(40);
 
 function randint(value) {
     return Math.floor(Math.random() * value + 1);
@@ -37,12 +37,12 @@ function sortfunction(a, b){
 
 function main(points){
     screen.clearRect(0, 0, maxX, maxY);
-    screen.lineWidth='4';
+    screen.lineWidth='3';
     screen.strokeStyle="white";
     screen.fillStyle = 'white';
 
     for (let i = 0; i < points.length; i++) {
-        getPosition(points[i], 0.9);
+        getPosition(points[i], 0.4);
     }
 
     let distList = []
@@ -67,7 +67,7 @@ function main(points){
     screen.strokeStyle="white";
     for (let i = 0; i < points.length; i++) {
         screen.beginPath();
-        screen.arc(points[i][0], points[i][1], 5, 0, 0.1, true);
+        screen.arc(points[i][0], points[i][1], 3, 0, 0.1, true);
         screen.fill();
         screen.stroke();
     }

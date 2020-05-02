@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.cnv{
+    position: fixed;
+    position: 0 0;
+    margin-top: 0;
+    width: 2560;
+    height: 1440;
+    background-color: black;
+    z-index: -10;
+}
+
+@font-face{
+    font-family: Decorative;
+    src: url(res/fonts/labelFont.otf);
+}
+
+.label{
+    position: absolute;
+    top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-family: Decorative, Arial, Helvetica, sans-serif;
+    z-index: 100;
+    user-select: none;
+    background-color: rgba(30, 30, 30, 0.7);
+    height: 100px;
+    width: 600px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.content{
+    top: 300px;
+    position: relative;
+    width: 100vw;
+    background-color: transparent;
+}
+
+.textBlock{
+    position: relative;
+    padding: 50px;
+    width: 60vw;
+    margin-bottom: 10px;
+    background-color: white;
+    font-size: 20px;
+    z-index: 50;
+    border-radius: 20px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}

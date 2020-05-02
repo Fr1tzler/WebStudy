@@ -1,8 +1,10 @@
 body{
     margin: 0px;
+    overflow-x: hidden;
 }
 #c1{
-    width: 1600;
-    height: 900;
+    position: fixed;
+    width: 2560;
+    height: 1440;
     background-color: black;
 }
