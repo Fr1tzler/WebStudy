@@ -54,4 +54,46 @@ body{
     border-radius: 20px;
     left: 50%;
     transform: translate(-50%, 0%);
+    margin-bottom: 150px;
+}
+
+.textForm{
+    margin: 10px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    height: fit-content;
+    z-index: 60;
+}
+
+#btn1{
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: medium;
+}
+
+#field1{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.imageBlock{
+    margin: 10px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+    z-index: 60;
+}
+
+.image{
+    position: relative;
+    display: block;
+    width: 200px;
+    border-radius: 10px;
 }

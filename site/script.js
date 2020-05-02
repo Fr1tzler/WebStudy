@@ -76,3 +76,10 @@ function main(points){
 }
 
 main(points);
+
+function getImage(){
+    let source = document.getElementById("field1").value;
+    if (source != ""){
+        document.getElementById("img1").src=source;
+    }
+}
