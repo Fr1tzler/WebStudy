@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+    <body>
+        <canvas class="cnv" id="c1" width="2560" height="1440"></canvas>
+        <script src="background.js"></script>
+        
+        <div class="label">Task manager</div>
+        
+        
+        <div class="content">
+            <div class="taskForm">
+                <input type="text" size='50' id="taskInfo">
+                <input type="date" size='5' id="taskDate">
+                <input type="button" value="Add" id="addButton" onclick="addTask()">
+            </div>
+            <div class="taskContent" id="taskList">
+                Поле пусто( Добавьте свою задачу, чтобы протестировать функционал.
+            </div>
+        </div>
+    </body>
+</html>
