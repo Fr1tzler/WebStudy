@@ -14,7 +14,7 @@ function parseFunction() {
 
 function backgroundDrawingLoop(screen, iterationCount){
     if (iterationCount > 2000) return;
-    //screen.clearRect(0, 0, window.innerWidth, window.innerHeight);
+    screen.clearRect(0, 0, window.innerWidth, window.innerHeight);
     screen.lineWidth='1';
     screen.strokeStyle="white";
     screen.fillStyle = 'white';
@@ -30,7 +30,7 @@ function backgroundDrawingLoop(screen, iterationCount){
 
 function drawCircle(screen, x, y){
     screen.beginPath();
-    screen.arc(x, y, 1, 0, 0.1, true);
+    screen.arc(x, y, 3, 0, 0.1, true);
     screen.fill();
     screen.stroke();
 }
